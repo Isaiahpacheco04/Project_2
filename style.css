@@ -20,10 +20,12 @@ body { margin: 0; color: #e6e8ee; background: #0b1020; }
 }
 .site-nav .container {
   display: flex;
-  justify-content: center;   /* centered on every page */
+  justify-content: center;
   align-items: center;
   gap: 20px;
   height: 60px;
+  max-width: 600px;   /* keeps links grouped tight */
+  margin: 0 auto;     /* centers entire nav horizontally */
 }
 .site-nav a {
   color: #cfe3ff;
