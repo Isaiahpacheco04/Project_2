@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home Page</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="topbar">
-    <nav class="site-nav">
-      <a href="index.html" class="active">Homepage</a>
-      <a href="resume.html">Resume</a>
-      <a href="video.html">Video Profile</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header class="site-header">
+        <nav class="site-nav">
+          <div class="container">
+            <a href="index.html" class="active">Homepage</a>
+            <a href="resume.html">Resume</a>
+            <a href="video.html">Video Profile</a>
+          </div>
+        </nav>
+      </header>
 
-  <main class="container">
-    <h1>Welcome to My Home Page</h1>
-    <p>Hey, I am Isaiah Pacheco, a third year ITM student. This site shows a bit about me and the things I like.</p>
+      <main class="container">
+        <h1>Welcome to My Home Page</h1>
+        <p>Hey, I am Isaiah Pacheco, a third year ITM student. This site shows a bit about me and the things I like.</p>
 
-    <h2>Gallery</h2>
+        <h2>Gallery</h2>
+        <hr>
 
-    <section class="card">
-      <h3>LEGO Collection</h3>
-      <img class="media-img" src="media/lego-collection.jpg" alt="LEGO sets on shelves">
-      <p>I have been into LEGO for years and recently got back into it. I mostly collect Star Wars and Ninjago. Sometimes I sort lots to keep or sell.</p>
-    </section>
+        <section class="card">
+          <h3>LEGO Collection</h3>
+          <div class="media-block">
+            <img src="media/lego-collection.jpg" alt="LEGO sets on shelves">
+          </div>
+          <p>I have been into LEGO for years and recently got back into it. I mostly collect Star Wars and Ninjago. Sometimes I sort lots to keep or sell.</p>
 
-    <section class="card">
-      <h3>Coding and Tech</h3>
-      <img class="media-img" src="media/coding-setup.jpg" alt="Laptop screen with code">
-      <p>I am studying ITM, so I spend time learning tools and building small projects to practice.</p>
-    </section>
+          <h3>Coding and Tech</h3>
+          <div class="media-block">
+            <img src="media/coding-setup.jpg" alt="Laptop screen with code">
+          </div>
+          <p>I am studying ITM, so I spend time learning new tools and writing code. Projects like this help me practice.</p>
 
-    <section class="card">
-      <h3>Fitness</h3>
-      <img class="media-img" src="media/gym.jpg" alt="Bench press with plates">
-      <p>Outside of school and work I keep a steady gym routine. It keeps me focused.</p>
-    </section>
+          <h3>Fitness</h3>
+          <div class="media-block">
+            <img src="media/gym.jpg" alt="Bench press with plates">
+          </div>
+          <p>The gym keeps me consistent and focused. It has been part of my routine for more than five years.</p>
+        </section>
 
-    <h2>What You Will Find Here</h2>
-    <ul>
-      <li>My resume</li>
-      <li>One short video on a separate page</li>
-      <li>Same navigation on every page</li>
-    </ul>
-  </main>
-</body>
+        <h2>What You Will Find Here</h2>
+        <ul>
+          <li>My resume</li>
+          <li>One short video</li>
+          <li>Same navigation on every page</li>
+        </ul>
+      </main>
+    </div>
+  </body>
 </html>
